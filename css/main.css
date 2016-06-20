@@ -1,0 +1,164 @@
+* {
+	font-family: 				'Raleway', sans-serif;
+	margin:  					0;
+	padding:	 				0;
+}
+
+nav	{
+	background-color: 			#fe7e00; 	
+	border-bottom: 				5px solid #dd7a2f;	
+	height:  					70px;		
+}
+
+nav img	{
+	height:  					40px;
+	margin-left:  				45px;
+	margin-top:  				15px;
+}
+
+nav ul {
+	float:	 					right;
+	margin-top:  				25px;
+	margin-right:  				45px;
+	text-decoration:  			none;
+}
+nav ul li {
+	display:  					inline-block;
+}
+
+nav ul li a {
+	color:  					#fff;
+	font-size:  				12px;
+	font-weight:  				900;
+	padding:					0 12px;
+	text-decoration:  			none;
+}
+
+nav ul li a:hover {
+	color:  					#6B2504;
+}
+header {
+	background-color:  			#F5F5F5;
+	clear:  					both;
+	height:  					50px;
+	width:  					100%;
+}
+
+header > div {
+	background-color:  			#EFEDEE;
+	float:  					right;
+	height:  					50px;
+	margin:	 					5px 55px 0 10px;
+	width:	 					175px;
+}
+
+header > div > input {
+
+	background:	 				transparent;
+	border:  					none;
+	font-size:  				12px;
+	font-weight:  				bolder;
+	margin-left:  				10px;
+}
+header > div > input:focus {
+	outline:  					none;
+}
+
+header > div > i {
+	color:  					#D5D5D5;
+	height:  					10px;
+	margin:  					15px 10px 0 0;
+}
+section {
+	background-color:  			#F5F5F5;
+	height:  					100%;
+	width:  					100%;
+}
+
+section > div {
+	height:	 					480px;
+	width:  					100%;
+}
+
+#orangepic {
+	display:  					inline-block;
+}
+#orangepic > img {
+	clear:	 					right;
+	display:  					inline;
+	margin-left:  				45px;
+	min-height:  				275px;
+	padding:  					50px 0;
+	position:  					relative; 
+}
+
+.maintext {
+	float:  					right;
+}
+
+.maintext > h1 {
+	color:  					#dd7a2f;
+	display:  					inline-block;
+	font-size:  				36px;
+	font-weight:  				200;
+	line-height:  				55px;
+	padding: 	 				50px 50px 0 0;
+	position:  					relative;
+	text-align:  				left;
+}
+
+#orange {
+	font-weight:  				900;
+}
+
+#trademark {
+	font-size:  				.7em;
+	vertical-align:  			top;
+}
+
+.webapp {
+	color:  					#7ACCC8;
+	font-weight:  				900;
+}
+
+.buttons {
+	border:  					none;
+	border-radius: 				3px;
+	color:  					#fff;
+	display:  					inline-block;		
+	height:  					50px;
+	margin:  					25px 30px;
+	margin-left:  				0;
+	text-transform: 			uppercase;
+	width:  					200px;
+}
+
+.buttons button {
+	font-weight:  				900;
+}
+
+.buttons:hover {
+	border:	 					none;
+	cursor:  					pointer;
+}
+
+#getquote {
+	background-color:  			#fe7e00;
+}
+
+#getquote:hover {
+	color: 						#6B2504;
+}
+
+#casestudies {
+	background-color:  			#7ACCC8;
+}
+
+#casestudies:hover {
+	color: 						#005555;
+}
+footer {
+	background-color:  			#7ACCC8;
+	height:  					70px;
+	clear:  					both;
+}
